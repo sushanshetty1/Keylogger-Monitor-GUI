@@ -15,7 +15,7 @@ The *Keylogger Monitor GUI* is a Python-based application designed to help users
 
 ## 🖼 Screenshot
 
-![Keylogger Monitor GUI Interface](GUI.png)
+![Keylogger Monitor GUI Interface](images/GUI.png)
 
 ## 📦 Requirements
 
