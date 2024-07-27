@@ -30,7 +30,7 @@ The **Keylogger Monitor GUI** is a Python-based application designed to help use
 
 2. **Navigate to the project directory:**
    bash
-   cd keylogger-monitor-gui
+   cd Keylogger-Monitor-GUI
    
 
 3. **Ensure you have Python 3 installed.** Tkinter and other required modules are included with Python.
@@ -59,6 +59,10 @@ To **search for keylogger data**:
 To **delete keylogger data**:
 1. Click the **"Delete"** button to remove data for the current timestamp.
 
+## ⚠ Warning
+
+This project is for educational purposes only. Using keyloggers without proper authorization or consent is illegal and unethical. Ensure you have permission before using or deploying any keylogging tools.
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you encounter any issues or have feature suggestions, please open an issue or submit a pull request.
@@ -69,4 +73,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📫 Contact
 
-For any questions or support, please reach out to [sushanshetty1470@gmail.com](mailto:your-email@example.com).
+For any questions or support, please reach out to [sushanshetty1470@gmail.com](mailto:sushanshetty1470@gmail.com).
