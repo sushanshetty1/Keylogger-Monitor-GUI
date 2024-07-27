@@ -1,5 +1,8 @@
 # Keylogger Monitor GUI
 
+![Keylogger Monitor GUI](https://img.shields.io/badge/Status-Active-brightgreen)
+![Python Version](https://img.shields.io/badge/Python-3.x-blue)
+
 ## 📜 Overview
 
 The **Keylogger Monitor GUI** is a Python-based application designed to help users manage and view keylogger data through a user-friendly graphical interface. Built with Tkinter, this tool allows for efficient data retrieval and management based on timestamps.
@@ -43,20 +46,23 @@ The **Keylogger Monitor GUI** is a Python-based application designed to help use
    
 
 2. **Interface Components:**
-   - **Title Label**: Displays the name of the application.
-   - **Time Label**: Indicates the format for date and time input.
-   - **Date and Time Selector**: Choose the year, month, day, hour, and minute.
-   - **Search Button**: Search and display keylogger events for the selected timestamp.
-   - **Delete Button**: Delete keylogger data associated with the current timestamp.
-   - **Scrollable Canvas**: View and scroll through keylogger data.
+
+| Component           | Description                                        |
+|---------------------|----------------------------------------------------|
+| **Title Label**     | Displays the name of the application.             |
+| **Time Label**      | Indicates the format for date and time input.     |
+| **Date and Time Selector** | Choose the year, month, day, hour, and minute.   |
+| **Search Button**   | Search and display keylogger events for the selected timestamp. |
+| **Delete Button**   | Delete keylogger data associated with the current timestamp. |
+| **Scrollable Canvas** | View and scroll through keylogger data.            |
 
 ## 📝 Example
 
-To **search for keylogger data**:
+### To **search for keylogger data**:
 1. Select the desired date and time from the dropdown menus.
 2. Click the **"Search"** button.
 
-To **delete keylogger data**:
+### To **delete keylogger data**:
 1. Click the **"Delete"** button to remove data for the current timestamp.
 
 ## ⚠ Warning
