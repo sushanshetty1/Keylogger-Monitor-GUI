@@ -5,13 +5,13 @@
 
 ## 📜 Overview
 
-The **Keylogger Monitor GUI** is a Python-based application designed to help users manage and view keylogger data through a user-friendly graphical interface. Built with Tkinter, this tool allows for efficient data retrieval and management based on timestamps.
+The *Keylogger Monitor GUI* is a Python-based application designed to help users manage and view keylogger data through a user-friendly graphical interface. Built with Tkinter, this tool allows for efficient data retrieval and management based on timestamps.
 
 ## 🎨 Features
 
-- **View Keylogger Data**: Search and display keylogger events based on selected date and time.
-- **Delete Keylogger Data**: Remove data associated with specific timestamps.
-- **Scrollable Canvas**: Navigate through large amounts of data with vertical and horizontal scrollbars.
+- *View Keylogger Data*: Search and display keylogger events based on selected date and time.
+- *Delete Keylogger Data*: Remove data associated with specific timestamps.
+- *Scrollable Canvas*: Navigate through large amounts of data with vertical and horizontal scrollbars.
 
 ## 🖼 Screenshot
 
@@ -21,18 +21,18 @@ The **Keylogger Monitor GUI** is a Python-based application designed to help use
 
 - Python 3.x
 - Tkinter (usually included with Python standard libraries)
-- `json` module (included with Python standard libraries)
-- `os` module (included with Python standard libraries)
+- json module (included with Python standard libraries)
+- os module (included with Python standard libraries)
 
 ## 🚀 Installation
 
-1. **Clone the repository:**
-   bash
+1. *Clone the repository:*
+   ```bash
    git clone https://github.com/sushanshetty1/Keylogger-Monitor-GUI.git
-   
 
-2. **Navigate to the project directory:**
-   bash
+   
+2. **Navigate to the project directory:**   
+   ```bash
    cd Keylogger-Monitor-GUI
    
 
@@ -41,11 +41,11 @@ The **Keylogger Monitor GUI** is a Python-based application designed to help use
 ## 💻 Usage
 
 1. **Run the application:**
-   bash
-   python gui.py
+   ```bash
+    python gui.py
    
 
-2. **Interface Components:**
+3. **Interface Components:**
 
 | Component           | Description                                        |
 |---------------------|----------------------------------------------------|
